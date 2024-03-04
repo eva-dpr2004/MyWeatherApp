@@ -1,7 +1,11 @@
+body{
+    background-image: linear-gradient(120deg, #b5d1ff 0%, #cceefe 100%);;
+}
+
 h1{
     font-size: 50px;
-    color:#3a3f6e;
-    text-decoration: underline  rgb(100, 156, 212);
+    color:rgb(63, 90, 130);
+    text-decoration: underline  rgb(212, 232, 244);
 }
 
 .container{
@@ -11,7 +15,7 @@ h1{
     margin-top: 50px;
     margin-bottom: 75px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #3a3f6e 0%, rgb(100, 156, 212) 100%);
+    background-image: linear-gradient(180deg, #4c6499 0%, rgb(115, 163, 211) 100%);
 }
 
 .top-bar{
@@ -58,6 +62,15 @@ h1{
     color: white;
     font-size: 120px;
     font-weight: 400;
+}
+
+.weather-description {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px; 
+    font-weight: 400;
+    margin-bottom: 20px; 
 }
 
 .weather-location{
